@@ -1,0 +1,28 @@
+
+[package]
+name = "solana-bpf-ce"
+version = "0.0.1"
+description = "Circular economy use case for Solana hackathon"
+authors = ["Prabhu <kailashprabhu.sivanesan@sc.com>"]
+repository = "https://github.com/ksivane/solana-hackathon"
+license = "Apache-2.0"
+homepage = "https://solana.com/"
+edition = "2018"
+
+[features]
+no-entrypoint = []
+
+[dependencies]
+borsh = "0.9.1"
+borsh-derive = "0.9.1"
+solana-program = "=1.7.9"
+# serde = "1.0.130"
+# serde_json = "*"
+
+[dev-dependencies]
+solana-program-test = "=1.7.9"
+solana-sdk = "=1.7.9"
+
+[lib]
+name = "ce"
+crate-type = ["cdylib", "lib"]
