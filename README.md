@@ -1,7 +1,7 @@
 # Solana hackathon (Circular Economy)
 We have developed a POC to solve the problem of asset tracking and provenance using Solana blockchain as a global distributed ledger. 
 
-The POC is available [here](url)
+The POC is available [here](ec2-18-191-1-28.us-east-2.compute.amazonaws.com)
 
 # Build and install Solana program (Smart contracts)
 It is assumed that Solana development environment has already been setup. If not, see [here](https://github.com/solana-labs/example-helloworld)
