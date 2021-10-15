@@ -10,8 +10,11 @@ Connect to solana devnet: `solana config set --url devnet`
 
 Install program to devnet: `solana program deploy circular_economy/ce/dist/program/ce.so`
 
+# Build and install client app
 Install and run client React app: `cd react_app && npm install && npm run start`
 
+visit *localhost:3000* in your browser and use the following test credentials:
+adm_user/123456
 
 ## POC Concept
 NFTs (Non fungible tokens) are used as on-chain representation of real-world entities such as paintings or limited-edition sneakers. We take inspiration from Ethereum ERC721 NFT standard and use NFTs as on-chain representation of physical entities on the global supply chain. Example of such entities include Cpu chips, memory modules, LCD panels, Printed circuit boards (PCB) etc.
