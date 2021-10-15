@@ -1,16 +1,16 @@
 # Solana hackathon (Circular Economy)
 We have developed a POC to solve the problem of asset tracking and provenance using Solana blockchain as a global distributed ledger. 
 
-The POC is available [here](http://ec2-18-191-1-28.us-east-2.compute.amazonaws.com)
-
 # Build and install Solana program (Smart contracts)
 It is assumed that Solana development environment has already been setup. If not, see [here](https://github.com/solana-labs/example-helloworld)
 
-Build program: `build-rust-program.sh`
+Build Solana program: `cd circular_economy && build-rust-program.sh`
 
 Connect to solana devnet: `solana config set --url devnet`
 
-Install program to devnet: `solana program deploy dist/program/ce.so`
+Install program to devnet: `solana program deploy circular_economy/ce/dist/program/ce.so`
+
+Install and run client React app: `cd react_app && npm install && npm run start`
 
 
 ## POC Concept
